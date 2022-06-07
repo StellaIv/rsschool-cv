@@ -1,1 +1,1 @@
-https://StellaIv.github.io/rsschool-cv/cv
+https://StellaIv.github.io/rsschool-cv/

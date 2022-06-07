@@ -1,8 +1,8 @@
 # Svetlana Ivanova
 ## Contacts
 
-*Phone:+7 920 110 87 01
-*Email:dubova1svd@gmail.com
+* Phone:+7 920 110 87 01
+* Email:dubova1svd@gmail.com
 
 ## About Me
 
@@ -11,10 +11,10 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 
 ## Skills
 
-*HTML
-*CSS/SASS
-*JavaScript (Basic)
-*Git
+* HTML
+* CSS/SASS
+* JavaScript (Basic)
+* Git
 
 ## English
 

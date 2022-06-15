@@ -1,0 +1,25 @@
+.text-block {
+    background-color: blue;
+    display: block;
+    width: 136px;
+    height: 37px;
+    overflow: hidden;
+}
+
+.text-align {
+    text-align: center;
+    }
+
+.small-capitals {
+    font-variant: small-caps;
+  }
+  
+.bold-text {
+    font: bold 32px Verdana, sans-serif;
+    }
+
+
+    
+  
+  
+    

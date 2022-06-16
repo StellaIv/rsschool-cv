@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico" type="image/png">
+    <link rel="icon" href="./assets/favicon.ico">
     
 </head>
-<body>
+<body class="margin">
   <header>
   <img src="./assets/img/hAYf0.jpg" alt="avatar" width="320" height="240">
     <h1  class="bold-text">Svetlana Ivanova
@@ -20,17 +20,18 @@
 
       <nav>
         <ul>
-          <li><a href="/Contacts">Contacts</a></li>
-          <li><a href="/Summary">Summary</a></li>
-          <li><a href="/Skills">Skills</a></li>
-          <li><a href="/Code">Code</a></li>
-          <li><a href="/Courses">Courses</a></li>
-          <li><a href="/Education">Education</a></li>
-          <li><a href="/English">English</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="#Summary">Summary</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Code">Code</a></li>
+          <li><a href="#Courses">Courses</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#English">English</a></li>
         </ul>
       </nav>
 
-    <h2 class="small-capitals">Contacts</h2>
+    <h2 class="small-capitals" id="Contacts">Contacts</h2>
   <ul>
     <li>Phone:+7 920 110 87 01</li>
     <li>Email:dubova1svd@gmail.com</li>
@@ -38,13 +39,13 @@
  </ul>
 </header>
  <main>
-    <h2 class="small-capitals">Summary</h2>
+    <h2 class="small-capitals" id="Summary">Summary</h2>
     
     <p>I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
       I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
     </p>
 
-    <h2 class="small-capitals">Skills</h2>
+    <h2 class="small-capitals" id="Skills">Skills</h2>
   <ul>
     <li> HTML</li>
     <li> CSS/SASS</li>
@@ -52,31 +53,43 @@
     <li> Git</li>
   </ul>
 
-    <h2 class="small-capitals">Code</h2>
+    <h2 class="small-capitals" id="Code">Code</h2>
 
     <code>
-      <pre>
-    const square = (num) => {
-    return num * num;
-    };
-    </pre>
+      console.log('Hello, World!');
     </code>
 
-    <h2 class="small-capitals">Courses</h2>
+    <h2 class="small-capitals" id="Courses">Courses</h2>
 
     <ul>
      <li>code-basics.com HTML</li>
      <li>code-basics.com CSS</li>
     </ul>
 
-    <h2 class="small-capitals">Education</h2>
+    <h2 class="small-capitals" id="Education">Education</h2>
 
     <p>Yaroslavl State Technical University</p>
 
-    <h2 class="small-capitals">English</h2>
+    <h2 class="small-capitals" id="Projects">Projects</h2>
+
+    <ul>
+      <li><a href="https://StellaIv.github.io/rsschool-cv/cv">CV Markdown</a></li>
+      <li><a href="https://StellaIv.github.io/rsschool-cv/">CV HTML</a></li>
+    </ul>
+
+    <h2 class="small-capitals" id="English">English</h2>
 
     <p>A2-B1</p>
   </main>
+  <footer>
+    <p>
+     <span>2022</span>
+     <a href="https://github.com/StellaIv">My Github</a>
+     <a href="https://rs.school/js-stage0/">
+     <img src="./assets/img/rsschoollogo.jpg" alt="logo rsschool" width="100" height="50">
+     </a>
+     </p>
+  </footer>
 </body>
 </html>
 

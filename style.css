@@ -5,19 +5,15 @@
     height: 37px;
     overflow: hidden;
 }
-
 .text-align {
     text-align: center;
     }
-
 .small-capitals {
     font-variant: small-caps;
   }
-  
 .bold-text {
     font: bold 32px Verdana, sans-serif;
     }
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
